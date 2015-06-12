@@ -1,0 +1,68 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#header {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	background-color: white ;
+}
+
+
+#projects {
+	width: 1024px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.project {
+	width: 1024px;
+	height: 340px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#skate {
+	background: url('../img/skate.png');
+	background-size: cover;
+}
+
+#music {
+	background-color: #808080;
+}
+
+#soccer {
+	background-color: #C0C0C0;
+}
+
+.about {
+	width: 1024px;
+	
+	position: relative;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.about_text {
+	width: 700px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: yellow;
+}
+
+.about_links {
+/*	width: 50px;
+	height: 200px;
+	float: right;
+	background-color: #808080;*/
+}
