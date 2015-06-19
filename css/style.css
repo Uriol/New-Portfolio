@@ -28,6 +28,7 @@ body {
 	height: 340px;
 	position: relative;
 	margin: 0 auto;
+	margin-top: 5px;
 }
 
 #skate {
@@ -36,7 +37,8 @@ body {
 }
 
 #music {
-	background-color: #808080;
+	background: url('../img/music_cover.png');
+	background-size: cover;
 }
 
 #soccer {
