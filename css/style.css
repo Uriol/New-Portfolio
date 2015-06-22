@@ -61,11 +61,16 @@ p {
 	color: #888888;
 }
 
+/*a {
+	cursor: pointer;
+}*/
+
 #projects {
 	width: 960px;
 	position: relative;
 	margin: 0 auto;
 }
+
 
 .project {
 	width: 960px;
@@ -73,6 +78,7 @@ p {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 #skate {
@@ -81,7 +87,7 @@ p {
 }
 
 #music {
-	background: url('../img/music_cover_6.png');
+	background: url('../img/music_cover_9.png');
 	background-size: cover;
 }
 
@@ -98,8 +104,8 @@ p {
 }
 
 .about_text {
-	width: 650px;
-	height: 250px;
+	width: 619px;
+	/*height: 250px;*/
 	position: relative;
 	margin: 0 auto;
 	margin-top: 50px;
@@ -107,8 +113,28 @@ p {
 }
 
 .about_links {
-/*	width: 50px;
-	height: 200px;
-	float: right;
-	background-color: #808080;*/
+	width: 500px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 22px;
+	
+}
+
+ul li{
+	display: inline;
+	cursor: pointer;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	font-weight: 400;
+	text-align: center;
+	color: black;
+
+	margin-left: 60px;
+
+	padding-bottom: 90px;
+}
+
+ul li:hover{
+	color: #08bab0;;
 }
