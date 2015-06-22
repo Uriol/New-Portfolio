@@ -1,5 +1,17 @@
 
+function onLoad(){
+	// Remove loading div
+	$('#loading').fadeOut(1000);
+	
+	// start scrolling when everything is loaded
+	$('body').css('overflow-y', 'scroll');
+}
+
+
 $(function(){
+
+	onLoad();
+
 
 
 	var md = new MobileDetect(window.navigator.userAgent);
@@ -23,7 +35,7 @@ $(function(){
 		w = window.innerWidth;
 		project_w = w/3;
 
-		if (w <= 1024) {
+		if (w <= 960) {
 			$('.project').css('height', project_w + 'px');
 		}
 

@@ -1,5 +1,5 @@
 @media only screen
-and (max-width: 1024px){
+and (max-width: 960px){
 
 	html {
 		width: 100%;
@@ -24,6 +24,7 @@ and (max-width: 1024px){
 		height: 340px;
 		position: relative;
 		margin: 0 auto;
+		margin-top: 5px;
 	}
 
 	.about {
