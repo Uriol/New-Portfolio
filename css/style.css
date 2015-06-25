@@ -87,12 +87,35 @@ p {
 }
 
 #music {
-	background: url('../img/music_cover_9.png');
+	/*background: url('../img/music_cover_9.png');
+	background-size: cover;*/
+	background-color: white;
+}
+
+
+/* HP ----------------------------------------------- */
+#hp {
+	background: url('../img/hp_fire.png') black;
 	background-size: cover;
 }
 
-#soccer {
-	background-color: black;
+#hp_logo {
+	position: absolute;
+	width: 960px;
+	height: 320px;
+	background: url('../img/hp_logo.png');
+	background-size: cover;
+	/*background-color: red;*/
+}
+canvas {
+	position: absolute;
+
+
+	/*width: 960px;
+*/}
+
+#canvas_back {
+	/*background-color: black;*/
 }
 
 .about {
@@ -113,7 +136,7 @@ p {
 }
 
 .about_links {
-	width: 500px;
+	width: 410px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 22px;
@@ -130,7 +153,7 @@ ul li{
 	text-align: center;
 	color: black;
 
-	margin-left: 60px;
+	margin-left: 40px;
 
 	padding-bottom: 90px;
 }
