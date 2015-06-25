@@ -89,10 +89,12 @@ p {
 #music {
 	background: url('../img/music_cover_9.png');
 	background-size: cover;
+	/*background-color: white;*/
 }
 
-#soccer {
-	background-color: black;
+#hp {
+	background: url('../img/hp.png');
+	background-size: cover;
 }
 
 .about {
