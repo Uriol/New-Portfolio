@@ -19,6 +19,7 @@ var canvas_height;
 
 $(function(){
 
+	// remove black background after loading
 	onLoad();
 
 
@@ -31,7 +32,6 @@ $(function(){
 		totalParticles = 15;
 
 		projectHeight_phone();
-		// Adjust project height on window resize
 		window.addEventListener( 'resize', projectHeight_phone, false );
 		setCanvasSize_mobile();
 		window.addEventListener( 'resize', setCanvasSize_mobile, false );
@@ -39,7 +39,6 @@ $(function(){
 		
 		totalParticles = 25;
 		projectHeight();
-		// Adjust project height on window resize
 		window.addEventListener( 'resize', projectHeight, false );
 		
 		setCanvasSize_desktop();
