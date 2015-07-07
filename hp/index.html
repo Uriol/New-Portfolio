@@ -11,10 +11,37 @@
 	<body>
 
 		<div id='wrapper'>
-			<video id='intro_video' width="100%" autoplay>
-			  <source src="video/hp_omen.mp4" type="video/mp4">
-			</video>
+
+			<div id='text_intro'>
+			</div>
+
+			<div id='img_intro'></div>
+
+			<div id='description'>
+				<div id='description_text'></div>
+				<div id='description_video'>
+					<iframe src="https://player.vimeo.com/video/129661946?color=fc0532&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+			</div>
+			
+			<div id='countdown'>
+				<div id='countdown_description'></div>
+				<div id='countdown_video'>
+					<video autoplay loop>
+					  <source src="video/countdown.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+
+			<div id='voting'>
+				<div id='voting_text'></div>
+				<div class='voting_image' id='vote1'></div>
+			</div>
+
 		</div>
+
+		<!-- <iframe src="https://player.vimeo.com/video/129661946?color=fc0532&title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
 
 
 		<script src='../js/jquery-1.11.2.min.js'></script>
