@@ -14,6 +14,16 @@ body {
     src: url('../fonts/futura_condensed_extrabold.woff');
 }
 
+@font-face{
+	font-family: benton;
+    src: url('../fonts/benton.woff');
+}
+
+@font-face{
+	font-family: benton_medium;
+    src: url('../fonts/benton_medium.woff');
+}
+
 #loading {
 	width: 100%;
 	height: 100%;
@@ -44,14 +54,14 @@ h1 {
 }
 
 h2 {
-	font-family: Helvetica, sans-serif;
+	font-family: benton, Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: 200;
 	color: #888888;
 }
 
 p {
-	font-family: Helvetica, sans-serif;
+	font-family:  benton, Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 22px;
 	font-weight: 100;
@@ -141,17 +151,18 @@ canvas {
 }
 
 .about_links {
-	width: 410px;
+	width: 323px;
 	position: relative;
 	margin: 0 auto;
 	margin-top: 22px;
+
 	
 }
 
 ul li{
 	display: inline;
 	cursor: pointer;
-	font-family: Helvetica, sans-serif;
+	font-family: benton_medium, Helvetica, sans-serif;
 	font-size: 15px;
 	line-height: 22px;
 	font-weight: 400;

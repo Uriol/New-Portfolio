@@ -2,6 +2,10 @@
 var intro_video = document.getElementById('intro_video'); 
 var width = window.innerWidth;
 var AR_height;
+var video_height;
+
+	var iframe = $('#vimeo_video')[0];
+	var player = $f(iframe);
 
 $(function(){
 
@@ -9,13 +13,32 @@ $(function(){
 	function resize(){
 		width = window.innerWidth;
 		AR_height = width*9/16;
-		$('#img_intro').css('height', AR_height);
+		// Get video height and apply it to parent div
+		video_height = $('.right_image').height();
+		//video_height = document.getElementById('.right_image').clientHeight;
+		//$('#countdown').css('height', video_height)
+		console.log(video_height);
 
 	}
 
 	window.addEventListener( 'resize', resize, false );
 
-	
+
+
+	$('#iframe_cover').on('click', function(){
+	    // alert('play');
+	    $(this).hide();
+	    player.api('play');
+	})
+
+
+	// Play video on mobile
+	$('.mobile_video').on('click', function(){
+		video.play();
+	})
+
+
+
 
 	//playVideo();
 	// function playVideo(){

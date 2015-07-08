@@ -11,39 +11,67 @@
 	<body>
 
 		<div id='wrapper'>
+			<a href='../index.html'>
+				<div id='back'></div>
+			</a>
 
 			<div id='text_intro'>
+				<h1>A campaign to launch HP’s first ever gaming laptop, the iconic HP OMEN. Working with B-Reel, we made this a reality by creating the first ever live action game on Twitch.tv, resulting in an interactive event without precedent to #bendtherules of gaming.</h1> 
 			</div>
 
-			<div id='img_intro'></div>
+			<!-- <div id='img_intro'></div> -->
+
+			<div class='row' id='countdown'>
+				<div class='row_content'>
+					<div class='left_text'id='countdown_description'>
+						<p>The campaign kicked off with a mysterious HP channel on Twitch featuring a countdown lasting a full month. During the countdown period, information about the contest, the physical arena and the participating players was released to build anticipation.</p>
+					</div>
+
+					<div class='right_image' id='countdown_video'>
+						<div class='mobile_video'></div>
+						<video autoplay loop>
+						  <source src="video/countdown.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+
+			<div class='row' id='arena'>
+				<div class='row_content'>
+					<div class='left_text'id='arena_description'>
+						<p>To challenge the two e-sports teams, Titan and London Conspiracy, in their PC game of choice, Smite, a 100% custom arena was built. It featured 10 chambers, each of which posed a different physical challenge to the players while they competed on the digital battlefield. To make the spectacle as engaging as possible for the audience, each booth was equipped with multiple cameras providing a look at the action and the player’s reactions to the challenges. Their skill and physical endurance was put to the test as the teams battled it out through three rounds of Smite.</p>
+					</div>
+					<div class='right_image' id='arena_img'>
+						<img id='arena_image' src='img/arena.png'>
+					</div>
+				</div>
+			</div>
+
 
 			<div id='description'>
-				<div id='description_text'></div>
+				<div id='description_text'>
+					<p>A critical component to making the campaign a success was to directly involve the audience by making them vote on what challenge was presented next. The bespoke torturous challenges that were built ranged from a nagging call from a gamer’s mum to sonic waves, electric shocks and freezing cold. All disturbing the digital athletes’ gameplay for a seemingly never-ending couple of seconds, while the audience got to enjoy the sights and sounds.</p>
+				</div>
 				<div id='description_video'>
-					<iframe src="https://player.vimeo.com/video/129661946?color=fc0532&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					<iframe id='vimeo_video' src="https://player.vimeo.com/video/129661946?color=fc0532&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div id='iframe_cover'></div>
 				</div>
 			</div>
 			
-			<div id='countdown'>
-				<div id='countdown_description'></div>
-				<div id='countdown_video'>
-					<video autoplay loop>
-					  <source src="video/countdown.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
 
-			<div id='voting'>
+
+			<!-- <div id='voting'>
 				<div id='voting_text'></div>
 				<div class='voting_image' id='vote1'></div>
-			</div>
+			</div> -->
 
 		</div>
 
 		<!-- <iframe src="https://player.vimeo.com/video/129661946?color=fc0532&title=0&byline=0&portrait=0"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
 
-
+		<script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
 		<script src='../js/jquery-1.11.2.min.js'></script>
 		<script src='../js/mobile-detect.min.js'></script>
 		<script src='js/script.js'></script>
