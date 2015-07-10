@@ -92,13 +92,14 @@ p {
 }
 
 #skate {
-	background: url('../img/skate_6.png');
+	background: url('../img/skate_8.png');
 	background-size: cover;
 }
 
 #music {
-	background: url('../img/music_cover_26.png');
-	background-size: cover;	
+	/*background: url('../img/music_cover_26.png');
+	background-size: cover;	*/
+	background-color: white;
 }
 
 
