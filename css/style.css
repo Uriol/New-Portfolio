@@ -89,6 +89,7 @@ p {
 	margin: 0 auto;
 	margin-top: 5px;
 	cursor: pointer;
+	background-position: center;
 }
 
 #skate {

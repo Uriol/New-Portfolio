@@ -71,6 +71,7 @@ $(function(){
 
 		if (w >= 400) {
 			project_w = w/3;
+
 		
 		} else {
 			project_w = w/16*9;
@@ -81,6 +82,7 @@ $(function(){
 		$('#hp_logo').css('height', project_w + 'px');
 		$('#hp_logo').css('background-image', 'url(img/hp_logo_16_9.png)');
 		$('#hp').css('background-image', 'url(img/hp_fire_16_9.png)');
+		$('#skate').css('background-image', 'url(img/skate_cover_mobile.png)');
 
 	}
 
